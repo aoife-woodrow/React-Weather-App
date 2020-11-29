@@ -25,10 +25,8 @@
   list-style: none;
 }
 
-.Weather img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+.Weather canvas {
+  margin-right: 10px;
 }
 
 .Weather .currentTemp {
