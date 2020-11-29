@@ -16,7 +16,7 @@ export default function Weather(props) {
         wind: response.data.wind.speed,
         description: response.data.weather[0].description,
         city: response.data.name,
-        img: "https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+        img: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
     });
     }
 
